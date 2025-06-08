@@ -1,2 +1,2 @@
 # JammerTron.github.io
-JammerTron's main page
+Welcome to JammerTron's main page

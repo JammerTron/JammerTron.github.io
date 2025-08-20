@@ -1,12 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>JammerTron | IT Dabbler</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PJ Seder — Jammertron</title>
+  <meta name="description" content="PJ Seder (Jammertron) — public speaking, keynotes, and advisory. Contact via protected email link or LinkedIn." />
+
+  <!-- Google Font: Michroma -->
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Michroma', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial']
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    html, body { height: 100%; }
+    body { font-family: 'Michroma', sans-serif; }
+  </style>
+
+  <!-- Open Graph / Twitter (optional but nice for sharing) -->
+  <meta property="og:title" content="PJ Seder — Jammertron" />
+  <meta property="og:description" content="Public speaker & technologist. Contact via protected email link or LinkedIn." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jammertron.com/" />
 </head>
-<body>
-  <h1>Hi, Welcome to JammerTron</h1>
-  <p>IT Professional with 3+ years of experience in systems, security, and automation.</p>
-  <p><a href="https://www.linkedin.com/in/JammerTron">LinkedIn</a></p>
-  <p>Email: JammerTron@pm.me</p>
+
+<body class="min-h-screen bg-gradient-to-br from-zinc-900 via-slate-900 to-black text-zinc-100 selection:bg-white/20 antialiased">
+  <main class="flex items-center justify-center min-h-screen p-6">
+    <div class="w-full max-w-3xl">
+      <!-- Card -->
+      <section class="relative overflow-hidden rounded-3xl bg-white/5 ring-1 ring-white/10 shadow-2xl">
+        <!-- Subtle glow -->
+        <div aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-indigo-500/20 blur-3xl"></div>
+        <div aria-hidden="true" class="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-cyan-500/20 blur-3xl"></div>
+
+        <div class="px-8 pt-10 pb-8 md:px-12 md:pt-12">
+          <!-- Profile -->
+          <div class="flex flex-col items-center text-center">
+            <div class="relative">
+              <img
+                id="avatar"
+                alt="PJ Seder headshot"
+                class="h-36 w-36 rounded-full object-cover ring-4 ring-white/20 shadow-xl"
+                src="https://ui-avatars.com/api/?name=PJ+Seder&size=256&rounded=true"
+                data-linkedin="https://www.linkedin.com/in/pjseder/picture?type=large"
+                referrerpolicy="no-referrer"
+              />
+              <span class="absolute -bottom-2 right-0 inline-flex items-center gap-1 rounded-full bg-emerald-500/90 px-2 py-1 text-xs font-semibold text-emerald-950 shadow">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22c5.421 0 10-4.579 10-10S17.421 2 12 2 2 6.579 2 12s4.579 10 10 10Zm-1.5-6.25 6-6-1.5-1.5-4.5 4.5-2-2-1.5 1.5 3.5 3.5Z"/></svg>
+                Available
+              </span>
+            </div>
+
+            <h1 class="mt-6 text-2xl md:text-3xl font-semibold tracking-wide">PJ Seder</h1>
+            <p class="mt-2 text-sm/relaxed text-zinc-300">
+              Public Speaker • Technologist • Jammertron
+            </p>
+
+            <div class="mt-5 flex flex-wrap items-center justify-center gap-3">
+              <!-- Website -->
+              <a href="https://jammertron.com" class="group inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/30" rel="me">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 opacity-80 group-hover:opacity-100" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm6.93 6h-3.29a15.6 15.6 0 0 0-1.07-3.23A8.03 8.03 0 0 1 18.93 8ZM12 4.07c.64.88 1.41 2.33 1.95 3.93h-3.9c.54-1.6 1.31-3.05 1.95-3.93ZM8.43 8H5.07A8.03 8.03 0 0 1 9.43 4.77C9.2 5.22 8.79 6.11 8.43 8Zm0 2a22.7 22.7 0 0 0 0 4h-3.7a7.97 7.97 0 0 1 0-4h3.7Zm1.62 0h3.9a20.8 20.8 0 0 1 0 4h-3.9a20.8 20.8 0 0 1 0-4Zm-1.62 6c.36 1.89.78 2.78 1 3.23A8.03 8.03 0 0 1 5.07 16h3.36Zm3.57 3.93c-.64-.88-1.41-2.33-1.95-3.93h3.9c-.54 1.6-1.31 3.05-1.95 3.93ZM15.57 16h3.36a8.03 8.03 0 0 1-4.36 3.23c.22-.45.64-1.34 1-3.23Zm.43-2a22.7 22.7 0 0 0 0-4h3.7a7.97 7.97 0 0 1 0 4H16Z"/></svg>
+                jammertron.com
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/pjseder" target="_blank" rel="noopener noreferrer me" class="group inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/30">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 opacity-80 group-hover:opacity-100" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5ZM.5 8h4V23h-4V8Zm7 0h3.8v2.05h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.15V23h-4v-6.6c0-1.58-.03-3.62-2.2-3.62-2.2 0-2.54 1.72-2.54 3.5V23h-4V8Z"/></svg>
+                LinkedIn
+              </a>
+
+              <!-- Obfuscated Email Button -->
+              <button id="emailBtn" type="button" class="group inline-flex items-center gap-2 rounded-xl border border-white/10 bg-emerald-400/10 px-4 py-2 text-sm hover:bg-emerald-400/20 focus:outline-none focus:ring-2 focus:ring-emerald-300/40">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 opacity-80 group-hover:opacity-100" viewBox="0 0 24 24" fill="currentColor"><path d="M12 13.065 2 6.75V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6.75l-10 6.315Zm9.8-9.49A2 2 0 0 0 20 3H4a2 2 0 0 0-1.8 1.575L12 10.935l9.8-7.36Z"/></svg>
+                <span>Reveal Email</span>
+              </button>
+            </div>
+
+            <!-- Revealed email line (populates on click via JS) -->
+            <div id="emailRow" class="mt-4 hidden items-center justify-center gap-3 text-sm text-emerald-200">
+              <span id="emailText" class="truncate"></span>
+              <button id="copyBtn" type="button" class="inline-flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 px-2 py-1 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/30">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M15 1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H6.5A2.5 2.5 0 0 1 4 13.5V3a2 2 0 0 1 2-2H15Zm-1 4H7v2h7V5Zm0 4H7v2h7V9Zm8 6.5V6.997A1 1 0 0 0 20 6H19v10.5A3.5 3.5 0 0 1 15.5 20H7a1 1 0 0 0 1 1h9.503A4.5 4.5 0 0 0 22 15.5Z"/></svg>
+                Copy
+              </button>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="my-8 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent"></div>
+
+          <!-- Blurb / CTA -->
+          <div class="mx-auto max-w-2xl text-center">
+            <p class="text-sm text-zinc-300/90">
+              I speak on technology, security, and the human side of innovation. For keynotes, panels, or workshops,
+              connect via LinkedIn or use the protected email button above.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-6 text-center text-xs text-zinc-400">
+        <p>&copy; <span id="year"></span> Jammertron • All rights reserved.</p>
+      </footer>
+    </div>
+  </main>
+
+  <script>
+    // --- Current Year ---
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // --- Attempt to load LinkedIn profile image; fallback to initials avatar ---
+    (function tryLinkedInImage() {
+      const imgEl = document.getElementById('avatar');
+      const linkedInURL = imgEl.getAttribute('data-linkedin');
+      if (!linkedInURL) return;
+
+      const testImg = new Image();
+      testImg.referrerPolicy = 'no-referrer'; // help with sites that block referrers
+      testImg.onload = function () { imgEl.src = linkedInURL; };
+      // if it errors, we just keep the avatar fallback (ui-avatars)
+      testImg.src = linkedInURL;
+    })();
+
+    // --- Email protection: build at runtime + mailto on demand ---
+    (function emailProtection() {
+      // Break email into parts so it never appears in the raw HTML
+      const u = ['j','a','m','m','e','r','t','r','o','n'].join('');
+      const d = ['p','m'].join('');
+      const t = ['m','e'].join('');
+      const email = `${u}@${d}.${t}`;
+      const subject = encodeURIComponent('Speaking Inquiry — Jammertron');
+      const body = encodeURIComponent("Hi PJ,\n\nI'd like to discuss a speaking opportunity.\n\nThanks,\n");
+
+      const btn = document.getElementById('emailBtn');
+      const row = document.getElementById('emailRow');
+      const text = document.getElementById('emailText');
+      const copyBtn = document.getElementById('copyBtn');
+
+      function reveal() {
+        // show obfuscated-looking version visually (still safe from basic bots)
+        const obfuscated = email.replace('@', ' [at] ').replace('.', ' [dot] ');
+        text.textContent = obfuscated;
+        row.classList.remove('hidden');
+      }
+
+      btn.addEventListener('click', () => {
+        reveal();
+        // Open default mail client
+        const href = `mailto:${email}?subject=${subject}&body=${body}`;
+        // use a tiny timeout so the reveal happens even if client blocks
+        setTimeout(() => { window.location.href = href; }, 50);
+      });
+
+      copyBtn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(email);
+          copyBtn.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17 5.53 12.7l-1.06 1.06L9 18.29 20.53 6.76l-1.06-1.06L9 16.17Z"/></svg>
+            Copied
+          `;
+          setTimeout(() => {
+            copyBtn.innerHTML = `
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M15 1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H6.5A2.5 2.5 0 0 1 4 13.5V3a2 2 0 0 1 2-2H15Zm-1 4H7v2h7V5Zm0 4H7v2h7V9Zm8 6.5V6.997A1 1 0 0 0 20 6H19v10.5A3.5 3.5 0 0 1 15.5 20H7a1 1 0 0 0 1 1h9.503A4.5 4.5 0 0 0 22 15.5Z"/></svg>
+              Copy
+            `;
+          }, 1500);
+        } catch (e) {
+          alert('Copy failed. You can highlight and copy the address shown.');
+        }
+      });
+
+      // Extra protection: don’t expose plain email in DOM until reveal
+      // (no-op here since we only set it on click)
+    })();
+  </script>
 </body>
 </html>
